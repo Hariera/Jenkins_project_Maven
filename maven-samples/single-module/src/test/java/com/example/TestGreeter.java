@@ -43,7 +43,7 @@ public class TestGreeter {
 
   @Test
   public void greetShouldIncludeGreetingMessage1() {
-    String someone = "Hello , This is sample project for webhook trigger";
+    String someone = "Hello , This is sample project for webhook trigger expect from POLLSCM";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
     
